@@ -54,7 +54,7 @@ export default function ProjectsPage() {
         <Project
           projectName={<a target="_blank" href="https://pythsource.com">PythSource</a>}
           projectDates="February 22, 2024 — present"
-          description="I own the domain and maintain all PythSource related web services and projects. I am also responsible for the landing page."
+          description="I own the domain and maintain all PythSource related web services and projects. I am also responsible for hosting the landing page."
           technologies="Docker, Grafana, SSH, Bash, Cloudflare, Git, GitLab CI/CD, Jira, etc."
           roles="N/A"
         />
@@ -83,7 +83,7 @@ export default function ProjectsPage() {
             <a target="_blank" href="https://dpw.pythsource.com/">Data Point Project Wiki</a>
           }
           projectDates="October 13, 2024 — present"
-          description="The official wiki of the Data Point Project. I was responsible for editing the theme and hosting the website."
+          description="The official wiki of the Data Point Project. I am responsible for editing the theme and hosting the website."
           technologies="MediaWiki, PHP, Docker, Lua, Git, Jira"
           roles="Frontend Developer, Lead Writer"
         />
