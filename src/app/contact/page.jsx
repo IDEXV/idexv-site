@@ -11,6 +11,7 @@ export default function ContactPage() {
                 <li>Discord: Maximkerkas123</li>
                 <li>E-mail: <a href="mailto:idexv@pythsource.com">idexv@pythsource.com</a></li>
                 <li>Telegram: <a target="_blank" href="https://t.me/IDEXV">@IDEXV</a></li>
+                <li>Bluesky: <a target="_blank" href="https://bsky.app/profile/idexv.com">@idexv.com</a></li>
             </ul>
             <p>My other profiles:</p>
             <ul>
