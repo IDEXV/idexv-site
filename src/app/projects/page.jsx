@@ -2,7 +2,7 @@ import Project from "@/components/project";
 
 export const metadata = {
   title: "Projects — IDEXV",
-  description: "IDEXV's projects",
+  description: "A list of projects I've contributed to.",
 };
 
 export default function ProjectsPage() {
@@ -17,7 +17,7 @@ export default function ProjectsPage() {
           }
           projectDates="January 11, 2020"
           description="A small map for the Zombie Survival gamemode in Garry's Mod."
-          technologies="Source 1, Hammer"
+          technologies="N/A"
           roles="N/A"
         />
         <Project
@@ -28,8 +28,8 @@ export default function ProjectsPage() {
           }
           projectDates="August 14, 2020"
           description="A Garry's Mod addon that adds more attachments for the ArcCW weapons base."
-          technologies="Source 1, Lua, Git"
-          roles="Lead Programmer"
+          technologies="Lua"
+          roles="Lead Developer"
         />
         <Project
           projectName={
@@ -37,7 +37,7 @@ export default function ProjectsPage() {
           }
           projectDates="February 18 — March 17, 2021"
           description="An unfinished Hearts of Iron IV modification set in the World Factions universe."
-          technologies="Git, GitHub Issues, GitHub Projects"
+          technologies="N/A"
           roles="Lead Developer, Project Manager"
         />
         <Project
@@ -54,9 +54,9 @@ export default function ProjectsPage() {
         <Project
           projectName={<a target="_blank" href="https://pythsource.com">PythSource</a>}
           projectDates="February 22, 2024 — present"
-          description="I own the domain and maintain all PythSource related web services and projects. I am also responsible for hosting the landing page."
-          technologies="Docker, Grafana, SSH, Bash, Cloudflare, Git, GitLab CI/CD, Jira, etc."
-          roles="N/A"
+          description="I own the pythsource.com domain and maintain all team-related web services and projects."
+          technologies="N/A"
+          roles="Team Leader, Infrastructure Engineer"
         />
         <Project
           projectName={
@@ -74,18 +74,18 @@ export default function ProjectsPage() {
             <a target="_blank" href="https://dpn.pythsource.com/">Daily Pulse News</a>
           }
           projectDates="August 5, 2024 — present"
-          description="A website for the fictional Data Point news agency Daily Pulse News. It uses a slightly modified version of Ghost (blogging platform)."
-          technologies="Ghost, React, JavaScript, NodeJS, Docker, Jira"
-          roles="Frontend Developer, Lead Writer"
+          description="A website for the fictional Data Point news agency Daily Pulse News."
+          technologies="React, NextJS, JavaScript"
+          roles="Lead Developer, Writer"
         />
         <Project
           projectName={
             <a target="_blank" href="https://dpw.pythsource.com/">Data Point Project Wiki</a>
           }
           projectDates="October 13, 2024 — present"
-          description="The official wiki of the Data Point Project. I am responsible for editing the theme and hosting the website."
-          technologies="MediaWiki, PHP, Docker, Lua, Git, Jira"
-          roles="Frontend Developer, Lead Writer"
+          description="The official wiki of the Data Point Project."
+          technologies="MediaWiki, PHP, Lua (Scribunto)"
+          roles="Lead Developer, Writer"
         />
         <Project
           projectName={
@@ -95,7 +95,7 @@ export default function ProjectsPage() {
           }
           projectDates="November 4, 2024"
           description="This website."
-          technologies="React, NextJS, JavaScript, Docker, Git"
+          technologies="React, NextJS, JavaScript"
           roles="N/A"
         />
       </div>

@@ -6,10 +6,10 @@ const mainFont = localFont({ src: 'CascadiaMono.woff2' })
 
 export const metadata = {
     title: "IDEXV",
-    description: "IDEXV's personal website",
+    description: "IDEXV's personal website.",
     openGraph: {
         title: "IDEXV",
-        description: "IDEXV's personal website",
+        description: "IDEXV's personal website.",
         url: "https://idexv.com",
         siteName: "IDEXV",
         images: [
@@ -25,7 +25,7 @@ export const metadata = {
     twitter: {
         card: "summary_large_image",
         title: "IDEXV",
-        description: "IDEXV's personal website",
+        description: "IDEXV's personal website.",
         images: ['https://idexv.com/header.png'],
     },
 }

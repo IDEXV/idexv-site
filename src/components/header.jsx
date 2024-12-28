@@ -4,9 +4,10 @@ export default function Header() {
   return (
     <>
       <div className="header">
-        $ <span className="text-blue-500">IDEXV</span> |{" "}
+        $ <span className="header-name">IDEXV</span> |{" "}
         <Link href="/">Home</Link> | <Link href="/projects">Projects</Link> |{" "}
-        <Link href="/contact">Contact</Link> | <Link href="/cv">CV</Link>
+        <Link href="/notes">Notes</Link> | <Link href="/contact">Contact</Link>{" "}
+        | <Link href="/cv">CV</Link>
       </div>
     </>
   );

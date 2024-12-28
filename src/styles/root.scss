@@ -85,6 +85,29 @@ ol {
     list-style: decimal;
 }
 
+.header-name {
+    color: rgb(78, 96, 255);
+    animation: loopingColor 30s linear infinite;
+}
+
+@keyframes loopingColor {
+    0% {
+        color: rgb(78, 96, 255);
+    }
+    30% {
+        color: rgb(248, 29, 29);
+    }
+    60% {
+        color: rgb(32, 180, 32);
+    }
+    90% {
+        color: rgb(50, 50, 224);
+    }
+    100% {
+        color: rgb(160, 51, 187);
+    }
+}
+
 @media screen and (max-width: 1250px) {
     .projects-list {
         grid-template-columns: auto auto;

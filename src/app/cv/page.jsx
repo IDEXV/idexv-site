@@ -1,6 +1,5 @@
 export const metadata = {
-    title: "CV — IDEXV",
-    description: "IDEXV's CV"
+    title: "CV — IDEXV"
 }
 
 export default function CVPage() {

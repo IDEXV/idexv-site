@@ -1,6 +1,6 @@
 export const metadata = {
     title: "Contact — IDEXV",
-    description: "IDEXV's contacts"
+    description: "Some ways to get in touch with me."
 }
 
 export default function ContactPage() {
@@ -16,7 +16,7 @@ export default function ContactPage() {
             <p>My other profiles:</p>
             <ul>
                 <li><a target="_blank" href="https://github.com/IDEXV">GitHub</a> (mostly inactive)</li>
-                <li><a target="_blank" href="https://git.pythsource.com/IDEXV">GitLab (PythSource)</a></li>
+                <li><a target="_blank" href="https://git.pythsource.com/IDEXV">GitLab</a> (PythSource)</li>
             </ul>
         </>
     )
