@@ -6,8 +6,7 @@ export default function Header() {
       <div className="header">
         $ <span className="header-name">IDEXV</span> |{" "}
         <Link href="/">Home</Link> | <Link href="/projects">Projects</Link> |{" "}
-        <Link href="/notes">Notes</Link> | <Link href="/contact">Contact</Link>{" "}
-        | <Link href="/cv">CV</Link>
+        <Link href="/contact">Contact</Link>
       </div>
     </>
   );
