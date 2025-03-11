@@ -108,6 +108,18 @@ ol {
     }
 }
 
+.proj-scrapped {
+    text-decoration: line-through;
+    background: rgb(146, 21, 21);
+    padding: 0.1em;
+}
+
+.proj-unpublished {
+    font-style: italic;
+    background: rgb(83, 83, 83);
+    padding: 0.1em;
+}
+
 @media screen and (max-width: 1250px) {
     .projects-list {
         grid-template-columns: auto auto;

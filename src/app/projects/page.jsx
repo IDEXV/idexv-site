@@ -33,7 +33,7 @@ export default function ProjectsPage() {
         />
         <Project
           projectName={
-            <a target="_blank" href="https://github.com/pythsource/HFactions">HFactions</a>
+            <span className="proj-unpublished"><a target="_blank" href="https://github.com/pythsource/HFactions">HFactions</a></span>
           }
           projectDates="February 18 — March 17, 2021"
           description="An unfinished Hearts of Iron IV modification set in the World Factions universe."
@@ -60,18 +60,16 @@ export default function ProjectsPage() {
         />
         <Project
           projectName={
-            <a target="_blank" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3243498995">
-              Bound by Fate Campaign
-            </a>
+            <span className="proj-scrapped">Bound by Fate Campaign</span>
           }
           projectDates="May 10, 2024"
-          description="A small experimental Arma 3 campaign set in the Data Point universe."
+          description="A small experimental Arma 3 campaign set in the Data Point universe. Unlisted in March 2025."
           technologies="SQF"
           roles="N/A"
         />
         <Project
           projectName={
-            <a target="_blank" href="https://dpn.pythsource.com/">Daily Pulse News</a>
+            <span className="proj-unpublished">Daily Pulse News</span>
           }
           projectDates="August 5, 2024 — present"
           description="A website for the fictional Data Point news agency Daily Pulse News."
@@ -80,7 +78,7 @@ export default function ProjectsPage() {
         />
         <Project
           projectName={
-            <a target="_blank" href="https://dpw.pythsource.com/">Data Point Project Wiki</a>
+            <span className="proj-unpublished">Data Point Project Wiki</span>
           }
           projectDates="October 13, 2024 — present"
           description="The official wiki of the Data Point Project."
