@@ -69,10 +69,10 @@ export default function ProjectsPage() {
         />
         <Project
           projectName={
-            <span className="proj-unpublished">Daily Pulse News</span>
+            <span className="proj-scrapped">Daily Pulse News</span>
           }
-          projectDates="August 5, 2024 — present"
-          description="A website for the fictional Data Point news agency Daily Pulse News."
+          projectDates="August 5, 2024 — April 1, 2025"
+          description="A website for the fictional Data Point news agency Daily Pulse News. Scrapped in April 2025."
           technologies="React, NextJS, JavaScript"
           roles="Lead Developer, Writer"
         />
