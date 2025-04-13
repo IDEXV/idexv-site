@@ -33,7 +33,7 @@ export default function ProjectsPage() {
         />
         <Project
           projectName={
-            <span className="proj-unpublished"><a target="_blank" href="https://github.com/pythsource/HFactions">HFactions</a></span>
+            <span className="proj-scrapped"><a target="_blank" href="https://github.com/pythsource/HFactions">HFactions</a></span>
           }
           projectDates="February 18 — March 17, 2021"
           description="An unfinished Hearts of Iron IV modification set in the World Factions universe."
@@ -52,38 +52,13 @@ export default function ProjectsPage() {
           roles="N/A"
         />
         <Project
-          projectName={<a target="_blank" href="https://pythsource.com">PythSource</a>}
-          projectDates="February 22, 2024 — present"
-          description="I own the pythsource.com domain and maintain all team-related web services and projects."
-          technologies="N/A"
-          roles="Team Leader, Infrastructure Engineer"
-        />
-        <Project
           projectName={
-            <span className="proj-scrapped">Bound by Fate Campaign</span>
-          }
-          projectDates="May 10, 2024"
-          description="A small experimental Arma 3 campaign set in the Data Point universe. Unlisted in March 2025."
-          technologies="SQF"
-          roles="N/A"
-        />
-        <Project
-          projectName={
-            <span className="proj-scrapped">Daily Pulse News</span>
-          }
-          projectDates="August 5, 2024 — April 1, 2025"
-          description="A website for the fictional Data Point news agency Daily Pulse News. Scrapped in April 2025."
-          technologies="React, NextJS, JavaScript"
-          roles="Lead Developer, Writer"
-        />
-        <Project
-          projectName={
-            <span className="proj-unpublished">Data Point Project Wiki</span>
+            <span className="proj-unpublished">DPP Development Wiki</span>
           }
           projectDates="October 13, 2024 — present"
-          description="The official wiki of the Data Point Project."
+          description="An internal Data Point Project wiki for development purposes."
           technologies="MediaWiki, PHP, Lua (Scribunto)"
-          roles="Lead Developer, Writer"
+          roles="Lead Developer"
         />
         <Project
           projectName={
